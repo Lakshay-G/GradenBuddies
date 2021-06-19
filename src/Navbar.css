@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=RocknRoll+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'New Tegomin', serif;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+    padding-bottom: 4.5rem;
+    
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    /* margin-left: 5rem; */
+    font-size: 1.8rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.nav-item {
+    padding-right: 1rem;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
