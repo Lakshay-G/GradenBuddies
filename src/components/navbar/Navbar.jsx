@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="col-10 mx-auto">
 
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-              <NavLink className="navbar-brand" to="/">HAPPY GARDENING</NavLink>
+              <NavLink className="navbar-brand" to="/">Garden Buddies</NavLink>
               {/* <img src={web} className="card-img-top" alt="event img" />/ */}
               <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span className="navbar-toggler-icon"></span>

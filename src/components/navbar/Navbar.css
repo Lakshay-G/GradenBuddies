@@ -23,7 +23,12 @@
     background-color: #ffffff!important;
 }
 
+.navbar-light .navbar-brand {
+    color: #018f69;
+}
+
 .navbar-brand {
+    /* color: #018f69; */
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     /* margin-left: 5rem; */
