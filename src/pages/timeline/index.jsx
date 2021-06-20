@@ -1,9 +1,9 @@
 import React from 'react';
-import timelineData from "./Data"; 
-import TimelineItems from "./Timelineitems";
-import "./Timeline.css";
+import timelineData from "../../Data";
+import TimelineItems from "../../components/timeline/TimelineItems";
+import "../../components/timeline/Timeline.css";
 
-const Timeline = () => timelineData.length > 0 &&(
+const Index = () => timelineData.length > 0 &&(
     <div className="timeline-1">
 
     <div className="timeline-container">
@@ -14,4 +14,4 @@ const Timeline = () => timelineData.length > 0 &&(
     </div>
 );
 
-export default Timeline;
+export default Index;
