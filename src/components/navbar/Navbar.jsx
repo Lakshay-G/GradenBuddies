@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-// import web from "../src/image/Hackathon Logo-2.png"
+// import web from "../src/assets/Hackathon Logo-2.png"
 import "./Navbar.css";
 
 const Navbar = () => {
