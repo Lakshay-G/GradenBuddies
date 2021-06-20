@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./Home.css";
+import PlantTitle from "../plantTitle/PlantTitle";
 
 const Home = () => {
     return (
@@ -13,7 +14,9 @@ const Home = () => {
                         <div class="card" >
                             <img src="..." class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">
+                                    <PlantTitle />
+                                </h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <NavLink to="/Events" className="btn btn-dark" role="button">
                                     Read
